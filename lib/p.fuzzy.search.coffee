@@ -58,8 +58,3 @@ class PseudoFuzzy
     sorted.map (sorted_item) ->
       i = data.filter (data_item, id) -> id == sorted_item.id
       i[0]
-
-# Testing
-fuzzy = new PseudoFuzzy('mar', data_sample)
-console.log fuzzy.search()
-
