@@ -2,6 +2,15 @@
 
 It uses tri-grams to do a quick fuzzy like search.
 
+## Usage
+
+```coffee
+# data_sample in /lib/data.sample.coffee
+fuzzy = new PseudoFuzzy('mar', data_sample)
+# show the results
+console.log fuzzy.search()
+```
+
 ### License (MIT)
 
 Copyright (c) 2013 Marian Posaceanu
